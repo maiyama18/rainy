@@ -5,22 +5,20 @@ import Layout from '../components/layout'
 
 export default ({ data }) => (
   <Layout>
-    <ul style={{ marginLeft: 0 }}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <li key={node.id} style={{ listStyle: 'none' }}>
-          <h5 style={{ fontWeight: 'normal', color: '#E68C3D', marginBottom: 0 }}>{node.frontmatter.date}</h5>
+        <div key={node.id} style={{ marginBottom: '1rem' }}>
+          <h4 style={{ fontWeight: 'normal', color: '#E68C3D', marginBottom: 0 }}>{node.frontmatter.date}</h4>
           <Link to={node.fields.slug} style={{ color: 'inherit',  }}>
-            {node.frontmatter.title}
+            <h3>{node.frontmatter.title}</h3>
           </Link>
-        </li>
+        </div>
       ))}
-    </ul>
   </Layout>
 )
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           id

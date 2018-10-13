@@ -4,8 +4,6 @@ import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <h1>about</h1>
-
     <div>
       <h3>profile</h3>
       <ul>

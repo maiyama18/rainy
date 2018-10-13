@@ -23,12 +23,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography.js'
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-typography',
+    //   options: {
+    //     pathToConfigModule: 'src/utils/typography.js'
+    //   },
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -75,6 +75,15 @@ module.exports = {
           title: title,
         }
       ]
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'M PLUS Rounded 1c\:light',
+          'Source Code Pro\:light',
+        ]
+      }
     }
   ],
 }
