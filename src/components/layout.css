@@ -1,0 +1,29 @@
+body {
+  background: #f6f6f0;
+  color: #525252;
+}
+
+pre {
+  background-color: #444444;
+  padding: 0.5rem;
+}
+
+code {
+  width: 100%;
+  color: #eeeeee;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+    "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+code:before,
+code:after {
+  letter-spacing: -0.2em;
+  content: " ";
+}
+pre code:before,
+pre code:after {
+  content: "";
+}
