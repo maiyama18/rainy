@@ -82,6 +82,7 @@ module.exports = {
         fonts: [
           'M PLUS Rounded 1c\:light',
           'Source Code Pro\:light',
+          'Satisfy'
         ]
       }
     }
