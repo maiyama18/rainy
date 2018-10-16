@@ -114,9 +114,9 @@ EEPROM Writing is successed.
 #### Hello World!
 
 マイコンのディップスイッチを1, 3のみONにする。
-screenでマイコンに接続してリセットボタンを押すと`Hello World!`が出力される！ありがとう。
+screenでマイコンに接続してリセットボタンを押すと`Hello World!`が出力される！ありがとう。マイコンに挨拶させるだけなのにめちゃくちゃ時間がかかってしまった。
 
-
+![hello world](https://imgur.com/a/0eZV9st)
 
 #### 勉強：メモリマップドI/O
 
