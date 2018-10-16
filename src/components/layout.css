@@ -30,6 +30,7 @@ pre {
 }
 
 code {
+  background-color: #444444;
   color: #eeeeee;
   border-radius: 3px;
   font-family: 'Source Code Pro', monospace;
