@@ -85,6 +85,9 @@ module.exports = {
           'Satisfy'
         ]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
     }
   ],
 }
