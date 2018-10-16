@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ymr-39/rainy
 
-media_folder: src/assets
+media_folder: static/assets
 public_folder: assets
 
 slug:
