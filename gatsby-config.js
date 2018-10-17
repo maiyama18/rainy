@@ -80,7 +80,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          'M PLUS Rounded 1c\:light,medium',
+          'M PLUS Rounded 1c\:light,regular',
           'Source Code Pro\:light',
           'Satisfy'
         ]
