@@ -9,6 +9,7 @@ body {
   color: #525252;
 
   font-family: 'M PLUS Rounded 1c';
+  font-weight: lighter;
   line-height: 1.4;
 }
 
@@ -17,6 +18,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'M PLUS Rounded 1c';
+  font-weight: bold;
   margin: 0;
 }
 
@@ -37,7 +40,8 @@ code {
   background-color: #444444;
   color: #eeeeee;
   border-radius: 3px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', 'M PLUS Rounded 1c', monospace;
+  font-weight: 'Light';
   font-size: 0.85rem;
   padding: 0.2rem, 0;
 }
