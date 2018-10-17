@@ -9,7 +9,7 @@ export default ({ data }) => (
         <div key={node.id} style={{ marginBottom: '1rem' }}>
           <h4 style={{ fontWeight: 'normal', color: '#E68C3D', marginBottom: 0 }}>{node.frontmatter.date}</h4>
           <Link to={node.fields.slug} style={{ color: 'inherit',  }}>
-            <h3>{node.frontmatter.title}</h3>
+            <h3 style={{ fontWeight: 'lighter' }}>{node.frontmatter.title}</h3>
           </Link>
         </div>
       ))}

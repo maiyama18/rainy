@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h4 style={{ fontWeight: 'normal', margin: 0 }}>
+      <p style={{ fontWeight: 'lighter', margin: 0 }}>
         <Link to="/" style={linkStyle}>
           home
         </Link>
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/about" style={linkStyle}>
           about
         </Link>
-      </h4>
+      </p>
     </div>
   </div>
 )
